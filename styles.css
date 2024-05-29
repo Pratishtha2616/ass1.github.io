@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:cornsilk;
+}
+
+#root{
+    border:3px solid black;
+    margin:50px  500px 300px 500px;
+    border-radius: 30px;
+    background-color: white;
+} 
+
+#root form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
+    gap:5px;
+}
+
+button{
+    border-radius: 8px;
+    color:azure;
+    border:none;
+    display:block;
+    width: 200px;
+    height: 6%;
+}
+
+#sign{
+    background-color:green;
+    
+}
+
+#google{
+    background-color: black;
+}
+
+a{
+    color: green;
+}
+
+#user-data {
+    display: none;
+    margin-top: 25px;
+}
+
+.card {
+    border-radius: 100px;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 250px;
+    text-align: center;
+    background-color:blanchedalmond; 
+    color: Black; 
+}
+.card h2 {
+    margin-bottom: 10px;
+    padding: 5px;;
+}
+.card p {
+    margin: 10px 0;
+}
+
+
+@media only screen and(max-width:375px) {
+   .signup-container{
+    width: 335px;
+    height: 664px;;
+   } 
+   .input-field-container {
+    width: 311px;
+    height: 48px;
+  }
+
+  .buttons {
+    width: 311px;
+    height: 48px;
+  }
+}

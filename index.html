@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link rel="stylesheet"  href="./styles.css">
+</head>
+<body>
+    <div id="root">
+         <form class="signup" onsubmit="handlesubmit(event)">
+            <h2>Create an Account</h2>
+            <label>Full name</label>
+            <input type="text" name="Name" placeholder="userName" required>
+            <label>Email</label>
+            <input type="email" name="Email" placeholder="email" required>
+            <label>Password</label>
+            <input type="password" name="Password" placeholder="password" required>
+            <label>Phone number</label>
+            <input type="text" name="phone number" placeholder="phone number" required>
+            <br>
+            <button type="submit" id="sign">Sign Up</button>
+            <button id="google">Sign Up with google</button>
+            <br>
+            <p>Already have an Account?<a href='#'>Login</a></p>
+        </form>
+    </div> 
+    <div id="user-data"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
