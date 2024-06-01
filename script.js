@@ -20,3 +20,26 @@ const handlesubmit=(e)=>{
     ;
     cards.style.display = 'block';
 }
+
+// const r=document.getElementById("login-id").onclick=handlelogin;
+
+// function handlelogin(){
+//    const heading= document.getElementById("heading");
+//    heading.textContent="Sign In To Account ";
+//    const btn=document.getElementById("sign");
+//    btn.innerHTML='Login';
+//    const btn1=document.getElementById("google");
+//    btn1.innerHTML="Login with google";
+
+// }
+
+document.getElementById("login-id").addEventListener("click",func);
+
+function func(){
+    const heading= document.getElementById("heading");
+       heading.textContent="Sign In To Account ";
+       const btn=document.getElementById("sign");
+       btn.innerHTML='Login';
+       const btn1=document.getElementById("google");
+       btn1.innerHTML="Login with google";
+}
